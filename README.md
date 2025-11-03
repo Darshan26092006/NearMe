@@ -1,7 +1,5 @@
 # Ex04 Places Around Me
-## Name: Darshan V
-## Reg No: 212224230050
-## Date: 03/11/2025
+## Date: 03.11.2025
 
 ## AIM
 To develop a website to display details about the places around my house.
@@ -27,168 +25,112 @@ Write HTML programs for all the regions identified.
 Execute the programs and publish them.
 
 ## CODE
-
-### map.html:
 ```
+Name : Darshan V
+Register Number : 212224230050
+
+ map.html
+
 <html>
     <head>
-        <title>My City</title>
+        <title>MyCity</title>
     </head>
     <body>
         <h1 align="center">
-            <font color="black"><b>UTHANGARAI</b></font>
+            <b>Vellore</b>
         </h1>
-        <h3 align="center">
-            <font color="black"><b>S.DHAYALAPRABU
- - (212224230065)</b></font>
-        </h3>
+        <h3 align="center">Darshan V (212224230050)</h3>
         <center>
-            <img src="map.png" usemap="#image-map">
-            <map name="image-map">
-                <area target="" alt="SANKAR CAFE" title="SANKAR CAFE" href="cafe.html" coords="494,99,646,155" shape="rect">
-                <area target="" alt="POORVIKA MOBILES" title="POORVIKA MOBILES" href="poorvika.html" coords="378,17,568,77" shape="rect">
-                <area target="" alt="SRI VADIVELAN MAHAL" title="SRI VADIVELAN MAHAL" href="mahal.html" coords="227,347,77" shape="circle">
-                <area target="" alt="SRIRAM ELECTRICALS" title="SRIRAM ELECTRICALS" href="electricals.html" coords="1208,211,1449,277" shape="rect">
-                <area target="" alt="SIVASAKTHI FITNESS" title="SIVASAKTHI FITNESS" href="fitness.html" coords="327,499,517,548" shape="rect">
-            </map>
+        <img src="map.png" usemap="#MyCity" height="610" width="1450">
+        <map name="MyCity">
+            <area shape="rect" title="My Home Town" href="home.html" coords="700,250,850,400" shape="rect">
+            <area shape="rect" title="Vellore Fort" href="Vellore Fort.html" coords="570,230,900,400" shape="rect">
+            <area shape="rect" title="CMC" href="CMC.html" coords="700,250,500,600" shape="rect">
+            <area shape="rect" title="VIT" href="VIT.html" coords="700,250,500,600" shape="rect">
+            <area shape="rect" title="GOLDEN TEMPLE" href="GOLDEN TEMPLE.html" coords="700,250,850,400" shape="rect">
+        </map>
         </center>
     </body>
 </html>
-```
-### cafe.html:
-```
+<center>
+<h1>Home</h1>
+</center>
 <html>
-    <head>
-        <title>CAFE</title>
-    </head>
-    <body bgcolor="brown">
-        <h1 align="center">
-            <font color="lavender"><b>UTHANGARAI</b></font>
-        </h1>
-        <h2 align="center">
-            <font color="lightblue"><b>SANKAR CAFE</b></font>
-        </h2>
-        <hr size="3" color=="white">
-        <p align="justify">
-            <font face="Times New Roman" size="6" color="white">
-                Sankar Cafe is one of the most famous hotels at Uthagarai, mainly known for their high quality vegetarian meals that usally be served for lunch. It is a pure vegetarian hotel, which is located at the most crowdiest place of Uthangarai, near Bangalore Highway. The menu at Sankar Cafe boasts a diverse selection of vegetarian dishes, ranging from traditional South Indian specialties like dosas, idlis, and vadas to innovative fusion creations that tantalize the taste buds.The attentive staff ensures that guests feel welcomed and cared for throughout their dining experience, making Sankar Cafe a beloved culinary destination in Uthangarai for locals and visitors alike.
-            </font>
-        </p>
+    <body>
+        <font size="10">
+            <li>"Situated in the state of Tamil Nadu, India"</li>
+            <li>"It is located on the banks of the Palar River and surrounded by the Javadi Hills in the northeastern part of Tamil Nadu"</li>
+        </font>
+    </body>
+</html> 
+
+ Vellore Fort.html
+
+<html>
+    <body>
+        <center>    
+        <h1>Vellore Fort</h1>
+        <img src="vellore fort.avif" height="300" width="500">
+        </center>
+        <font size="10">            
+            <li>"Vellore Fort is a large 16th-century fort situated in heart of the Vellore city, in the state of Tamil Nadu, India built by the Emperors of Vijayanagara"</li>
+            <li>"Vellore Fort was built by Chinna Bommi Yadhava Nayak and Thimma Yadhava Nayak, subordinate chieftains under emperor Sadasiva Raya of the Vijayanagara Empire in the year 1566 CE"</li>
+        </font>
+    </body>
+</html>
+
+CMC.html
+
+<html>
+    <body>
+        <center>
+        <h1>Christian Medical College</h1>
+        <img src ="CMC.jpg" height="300" width="500">
+        </center>
+        <font size="10">
+            <li>"Christian Medical College Vellore widely known as CMC Vellore is a private Christian minority community-run medical college and hospital in Vellore, Tamil Nadu, India"</li>
+            <li>"The hospital was founded by Dr. Ida Sophia Scudder in 1900. Ida Scudder was the daughter of second-generation medical missionaries from the Dutch Reformed Church in the United States of America (US) who served in India"</li>
+        </font>
+    </body>
+</html>
+VIT.html
+
+<html>
+    <body>
+        <center>
+        <h1>Vellore Institute of Technology</h1>
+        <img src="VIT.jpeg" height="300" width="500">
+        </center>
+        <font size="10">
+            <li>"Vellore Institute of Technology or VIT is a private deemed university in Vellore, Tamil Nadu, India"</li>
+            <li>"The university has board of management, academic council and Finance committee. G. Viswanathan is the founder-chancellor of VIT and all its sister universities. The campus spans over 372 acres"</li>
+        </font>
+    </body>
+</html>
+
+GOLDEN TEMPLE.html 
+
+<html>
+    <body>
+        <center>
+        <h1>Golden Temple</h1>
+        <img src="golden temple.webp" height="300" width="500">
+        </center>
+        <font size="10">
+            <li>The temple with its gold (1500 kg) covering, has intricate work done by artisans specialising in temple art using gold</li>
+            <li>Built by the Sri Narayani Peedam under the guidance of spiritual leader Sri Sakthi Amma, the temple is not just a place of worship but also promotes spiritual education, environmental awareness, and charitable activities.</li>
+        </font>
     </body>
 </html>
 ```
 
-### electricals.html:
-```
-<html>
-    <head>
-        <title>ELECTRICALS</title>
-    </head>
-    <body bgcolor="pink">
-        <h1 align="center">
-            <font color="blue"><b>UTHANGARAI</b></font>
-        </h1>
-        <h2 align="center">
-            <font color="green"><b>SRIRAM ELECTRICALS</b></font>
-        </h2>
-        <hr size="3" color=="plum">
-        <p align="justify">
-            <font face="Times New Roman" size="6" color="red">
-                Sriram Electricals stands as a cornerstone in Uthangarai, providing a comprehensive range of electrical products and services to both residential and commercial customers. With a reputation for reliability and quality, Sriram Electricals is the go-to destination for all electrical needs in the area. At Sriram Electricals, customers can discover an extensive inventory of electrical components, fixtures, and appliances sourced from trusted manufacturers. Moreover, Sriram Electricals also offers installation services, repairs, and maintenance, further enhancing its value proposition for customers.
-            </font>
-        </p>
-    </body>
-</html>
-```
-### fitness.html:
-```
-<html>
-    <head>
-        <title>FITNESS</title>
-    </head>
-    <body bgcolor="green">
-        <h1 align="center">
-            <font color="yellow"><b>UTHANGARAI</b></font>
-        </h1>
-        <h2 align="center">
-            <font color="plum"><b>SIVASAKTHI FITNESS</b></font>
-        </h2>
-        <hr size="3" color=="plum">
-        <p align="justify">
-            <font face="Times New Roman" size="6" color="white">
-                Sivasakthi Fitness is a gym located in Uthangarai, Tamil Nadu, India. Sivasakthi Fitness is a premier fitness center,dedicated to empowering individuals on their journey towards health and wellness. At Sivasakthi Fitness, members have access to cutting-edge gym equipment, including cardio machines, weightlifting stations, and functional training areas, providing everything needed for a dynamic and effective workout session. The center's spacious and well-ventilated environment creates an inspiring atmosphere conducive to achieving fitness milestones.Beyond its exceptional facilities and personalized training programs, Sivasakthi Fitness fosters a supportive community of like-minded individuals who share a passion for health and fitness.
-            </font>
-        </p>
-    </body>
-</html>
-```
-### mahal.html:
-```
-<html>
-    <head>
-        <title>MAHAL</title>
-    </head>
-    <body bgcolor="orange">
-        <h1 align="center">
-            <font color="blue"><b>UTHANGARAI</b></font>
-        </h1>
-        <h2 align="center">
-            <font color="green"><b>SRI VADIVELAN MAHAL</b></font>
-        </h2>
-        <hr size="3" color=="blue">
-        <p align="justify">
-            <font face="Times New Roman" size="6" color="black">
-                Sri Vadivelan Mahal stands as a distinguished venue in the heart of Uthangarai, offering a picturesque setting for a variety of special occasions and events. Nestled amidst serene surroundings, this mahal exudes elegance and charm, providing an ideal backdrop for weddings, receptions, parties, and other gatherings. The mahal boasts spacious and well-appointed halls that can accommodate gatherings of various sizes, from intimate ceremonies to grand celebrations. Moreover, Sri Vadivelan Mahal's convenient location in Uthangarai makes it easily accessible for guests, while its serene ambiance provides a tranquil escape from the hustle and bustle of city life.
-            </font>
-        </p>
-    </body>
-</html>
-```
-
-### poorvika.html:
-```
-<html>
-    <head>
-        <title>MOBILES</title>
-    </head>
-    <body bgcolor="skyblue">
-        <h1 align="center">
-            <font color="black"><b>UTHANGARAI</b></font>
-        </h1>
-        <h2 align="center">
-            <font color="green"><b>POORVIKA MOBILES</b></font>
-        </h2>
-        <hr size="3" color=="cyan">
-        <p align="justify">
-            <font face="Times New Roman" size="6" color="white">
-                Poorvika Mobiles is a leading mobile shop nestled in the heart of Uthangarai, offering an extensive range of mobile phones, accessories, and related services. Renowned for its exceptional customer service and wide selection of products, Poorvika Mobiles caters to the diverse needs and preferences of tech enthusiasts and smartphone users in the area. Whether you're looking to upgrade your current device, purchase a gift for a loved one, or explore the latest mobile trends, Poorvika Mobiles is your go-to destination in Uthangarai for all things mobile-related.
-            </font>
-        </p>
-    </body>
-</html>
-```
 
 ## OUTPUT
-
-### image.png:
-<img width="1919" height="1067" alt="image" src="https://github.com/user-attachments/assets/4f2da1f8-bf8f-4dc2-b69f-ea5abac53b2d" />
-
-
-### cafe.png:
-<img width="1919" height="1096" alt="cafe" src="https://github.com/user-attachments/assets/201f2416-4df0-44f9-8921-e5200da8adc0" />
-
-
-### electricals.png:
-<img width="1919" height="1092" alt="electricals" src="https://github.com/user-attachments/assets/737f45ac-5cf4-48c4-bf8f-551d26776d7a" />
-
-
-### fitness.png:
-<img width="1914" height="1099" alt="fitness" src="https://github.com/user-attachments/assets/5497d7cc-baee-48b1-9dd6-736191de30b8" />
-
-
-### mahal.png:
-<img width="1918" height="1093" alt="mahal" src="https://github.com/user-attachments/assets/6ea5f8be-f0f7-48a2-9cc8-8ceee8a6fd7b" />
-
+![1](https://github.com/user-attachments/assets/e568747b-7e4c-4647-aa81-b7b3ec16cc43)
+<img width="1893" height="994" alt="2" src="https://github.com/user-attachments/assets/a958f3e1-4aac-4d0a-b361-2340aa97d30c" />
+<img width=<img width="1891" height="962" alt="4" src="https://github.com/user-attachments/assets/22a3b3fe-4465-4b12-af4a-0f50d29cd8d8" />
+<img width="1891" height="962" alt="4" src="https://github.com/user-attachments/assets/de2f9ff8-8342-47fa-93f8-e1c5b8a9a375" />
+<img width="1920" height="1200" alt="5" src="https://github.com/user-attachments/assets/3ce62a2b-a165-4e47-aafa-37988220c83d" />
 
 
 ## RESULT
